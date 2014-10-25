@@ -1,10 +1,4 @@
-Getting-and-Cleaning-Data-Peer-Assesment
-========================================
-
-Getting and Cleaning Data Peer Assesment
-
-
-# DATA
+## DATA
   ==================================================================
 
   Human Activity Recognition Using Smartphones Dataset
@@ -79,7 +73,7 @@ Getting and Cleaning Data Peer Assesment
     std(): Standard deviation
 
 
-# TRANSFORMATIONS
+## TRANSFORMATIONS
 
   0- The working directory should contain the unzipped data in order to be collecte, merged and processed
 
@@ -93,7 +87,7 @@ Getting and Cleaning Data Peer Assesment
 
   5- a file is created in the working directory with the aggregated data
 
-# VARIABLES
+## VARIABLES
 
   Subject: Integer
 
@@ -138,75 +132,143 @@ Getting and Cleaning Data Peer Assesment
   tGravityAcc-std()-Y: Numeric
 
   tGravityAcc-std()-Z: Numeric
+
   tBodyAccJerk-mean()-X: Numeric
+
   tBodyAccJerk-mean()-Y: Numeric
+
   tBodyAccJerk-mean()-Z: Numeric
+
   tBodyAccJerk-std()-X: Numeric
+
   tBodyAccJerk-std()-Y: Numeric
+
   tBodyAccJerk-std()-Z: Numeric
+
   tBodyGyro-mean()-X: Numeric
+
   tBodyGyro-mean()-Y: Numeric
+
   tBodyGyro-mean()-Z: Numeric
+
   tBodyGyro-std()-X: Numeric
+
   tBodyGyro-std()-Y: Numeric
+
   tBodyGyro-std()-Z: Numeric
+
   tBodyGyroJerk-mean()-X: Numeric
+
   tBodyGyroJerk-mean()-Y: Numeric
+
   tBodyGyroJerk-mean()-Z: Numeric
+
   tBodyGyroJerk-std()-X: Numeric
+
   tBodyGyroJerk-std()-Y: Numeric
+
   tBodyGyroJerk-std()-Z: Numeric
+
   tBodyAccMag-mean(): Numeric
+
   tBodyAccMag-std(): Numeric
+
   tGravityAccMag-mean(): Numeric
+
   tGravityAccMag-std(): Numeric
+
   tBodyAccJerkMag-mean(): Numeric
+
   tBodyAccJerkMag-std(): Numeric
+
   tBodyGyroMag-mean(): Numeric
+
   tBodyGyroMag-std(): Numeric
+
   tBodyGyroJerkMag-mean(): Numeric
+
   tBodyGyroJerkMag-std(): Numeric
+
   fBodyAcc-mean()-X: Numeric
+
   fBodyAcc-mean()-Y: Numeric
+
   fBodyAcc-mean()-Z: Numeric
+
   fBodyAcc-std()-X: Numeric
+
   fBodyAcc-std()-Y: Numeric
+
   fBodyAcc-std()-Z: Numeric
+
   fBodyAcc-meanFreq()-X: Numeric
+
   fBodyAcc-meanFreq()-Y: Numeric
+
   fBodyAcc-meanFreq()-Z: Numeric
+
   fBodyAccJerk-mean()-X: Numeric
+
   fBodyAccJerk-mean()-Y: Numeric
+
   fBodyAccJerk-mean()-Z: Numeric
+
   fBodyAccJerk-std()-X: Numeric
+
   fBodyAccJerk-std()-Y: Numeric
+
   fBodyAccJerk-std()-Z: Numeric
+
   fBodyAccJerk-meanFreq()-X: Numeric
+
   fBodyAccJerk-meanFreq()-Y: Numeric
+
   fBodyAccJerk-meanFreq()-Z: Numeric
+
   fBodyGyro-mean()-X: Numeric
+
   fBodyGyro-mean()-Y: Numeric
+
   fBodyGyro-mean()-Z: Numeric
+
   fBodyGyro-std()-X: Numeric
+
   fBodyGyro-std()-Y: Numeric
+
   fBodyGyro-std()-Z: Numeric
+
   fBodyGyro-meanFreq()-X: Numeric
+
   fBodyGyro-meanFreq()-Y: Numeric
+
   fBodyGyro-meanFreq()-Z: Numeric
+
   fBodyAccMag-mean(): Numeric
+
   fBodyAccMag-std(): Numeric
+
   fBodyAccMag-meanFreq(): Numeric
+
   fBodyBodyAccJerkMag-mean(): Numeric
+
   fBodyBodyAccJerkMag-std(): Numeric
+
   fBodyBodyAccJerkMag-meanFreq(): Numeric
+
   fBodyBodyGyroMag-mean(): Numeric
+
   fBodyBodyGyroMag-std(): Numeric
+
   fBodyBodyGyroMag-meanFreq(): Numeric
+
   fBodyBodyGyroJerkMag-mean(): Numeric
+
   fBodyBodyGyroJerkMag-std(): Numeric
+
   fBodyBodyGyroJerkMag-meanFreq(): Numeric
 
-# LICENSE
+## LICENSE
+
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
