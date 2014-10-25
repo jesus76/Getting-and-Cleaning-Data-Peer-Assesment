@@ -6,19 +6,28 @@ Getting and Cleaning Data Peer Assesment
 
 # DATA
   ==================================================================
+
   Human Activity Recognition Using Smartphones Dataset
+
   Version 1.0
+
   ==================================================================
+
   Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+
   Smartlab - Non Linear Complex Systems Laboratory
+
   DITEN - Universit<E0> degli Studi di Genova.
+
   Via Opera Pia 11A, I-16145, Genoa, Italy.
+
   activityrecognition@smartlab.ws
+
   [www.smartlab.ws](www.smartlab.ws)
+
   ==================================================================
 
   *Feature Selection* 
-  =================
 
   The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -29,63 +38,105 @@ Getting and Cleaning Data Peer Assesment
   These signals were used to estimate variables of the feature vector for each pattern:  
   '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-  tBodyAcc-XYZ
-  tGravityAcc-XYZ
-  tBodyAccJerk-XYZ
-  tBodyGyro-XYZ
-  tBodyGyroJerk-XYZ
-  tBodyAccMag
-  tGravityAccMag
-  tBodyAccJerkMag
-  tBodyGyroMag
-  tBodyGyroJerkMag
-  fBodyAcc-XYZ
-  fBodyAccJerk-XYZ
-  fBodyGyro-XYZ
-  fBodyAccMag
-  fBodyAccJerkMag
-  fBodyGyroMag
-  fBodyGyroJerkMag
+    tBodyAcc-XYZ
+
+    tGravityAcc-XYZ
+
+    tBodyAccJerk-XYZ
+
+    tBodyGyro-XYZ
+
+    tBodyGyroJerk-XYZ
+
+    tBodyAccMag
+
+    tGravityAccMag
+
+    tBodyAccJerkMag
+
+    tBodyGyroMag
+
+    tBodyGyroJerkMag
+
+    fBodyAcc-XYZ
+
+    fBodyAccJerk-XYZ
+
+    fBodyGyro-XYZ
+
+    fBodyAccMag
+
+    fBodyAccJerkMag
+
+    fBodyGyroMag
+
+    fBodyGyroJerkMag
 
   The set of variables that were estimated from these signals are: 
 
-  mean(): Mean value
-  std(): Standard deviation
+    mean(): Mean value
+
+    std(): Standard deviation
 
 
 # TRANSFORMATIONS
+
   0- The working directory should contain the unzipped data in order to be collecte, merged and processed
+
   1- Train and Test data are merged (concatenated) in a single dataset
+
   2- Only mean/std of each measurement are kept and the rest of variables are filtered out
+
   3- Each measurement is merged with the subject ID that performs it and the activity label associated to 
+
   4- Aggregation of the resulting dataset was conducted by the subject ID
+
   5- a file is created in the working directory with the aggregated data
 
 # VARIABLES
+
   Subject: Integer
-    Subject ID: Unique identifier assigned to each subject 
-      0..30 
+
+    Subject ID: Unique identifier assigned to each subject (0..30)
 
   Activity: String
+
     Type of activity
+
       1 WALKING
+
       2 WALKING_UPSTAIRS
+
       3 WALKING_DOWNSTAIRS
+
       4 SITTING
+
       5 STANDING
+
       6 LAYING
 
   tBodyAcc-mean()-X: Numeric
+
   tBodyAcc-mean()-Y: Numeric
+
   tBodyAcc-mean()-Z: Numeric
+
   tBodyAcc-std()-X: Numeric
+
   tBodyAcc-std()-Y: Numeric
+
   tBodyAcc-std()-Z: Numeric
+
   tGravityAcc-mean()-X: Numeric
+
   tGravityAcc-mean()-Y: Numeric
+
   tGravityAcc-mean()-Z: Numeric
+
   tGravityAcc-std()-X: Numeric
+
   tGravityAcc-std()-Y: Numeric
+
   tGravityAcc-std()-Z: Numeric
   tBodyAccJerk-mean()-X: Numeric
   tBodyAccJerk-mean()-Y: Numeric
